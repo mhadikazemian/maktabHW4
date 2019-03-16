@@ -4,7 +4,7 @@ public class Q1 {
     public static void main(String[] args) {
 
         Encryption encryptor = new Encryption();
-        encryptor.encryptAll(encryptor.getMessage(),encryptor.getCode());
+        encryptor.encryptAll(encryptor.getMessage(), encryptor.getCode());
 
     }
 }
