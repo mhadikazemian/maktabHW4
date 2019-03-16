@@ -11,7 +11,7 @@ public class Billing {
     }
 
     public static double computeBill(int price, int quantity, int coupon) {
-        return (price * quantity * (1 - coupon) * 1.08);
+        return (price * quantity * (1 - 0.01*coupon) * 1.08);
 
     }
 }
