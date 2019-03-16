@@ -4,7 +4,7 @@ public class BloodData {
     String[] bloodTypes = {"O", "A", "B", "AB"};
     private String bloodType;
     private String RhFactor;
-    
+
     public BloodData() {
         this.bloodType = "O";
         this.RhFactor = "+";
