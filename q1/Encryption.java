@@ -8,23 +8,27 @@ public class Encryption {
     private int number;
     private String sentence;
 
+    //gets the sentence from user
     public String getMessage() {
         System.out.println("Enter your sentence: ");
         sentence = scanner.nextLine();
         return sentence;
     }
 
+    //gets the encryption code from user
     public int getCode() {
         System.out.println("Enter your desired number: ");
         number = scanner.nextInt();
         return number;
     }
 
+    //takes in a single letter and return a result of type char
     public char encrypt(String a) {
         char t = a.charAt(0);
         return t;
     }
 
+    //does the encryption
     public void encryptAll(String sentence, int number) {
 
         char[] charArray = sentence.toCharArray();
@@ -37,8 +41,8 @@ public class Encryption {
             System.out.print(charArray[i]);
         }
 
-    }
+    }//end of encryptAll method
 
 
-}
+}//end of class
 
