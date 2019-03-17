@@ -1,7 +1,7 @@
 package com.maktab.HW4.q4;
 
 public class BloodData {
-    String[] bloodTypes = {"O", "A", "B", "AB"};
+    private String[] bloodTypes = {"O", "A", "B", "AB"};
     private String bloodType;
     private String RhFactor;
 
