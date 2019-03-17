@@ -8,13 +8,13 @@ public class Patient {
     public Patient() {
         this.ID = 0;
         this.age = 0;
+        this.bloodData = new BloodData();
     }
 
     public Patient(int ID, int age, String bloodType, String Rh) {
         this.ID = ID;
         this.age = age;
-        this.bloodData.setBloodType(bloodType);
-        this.bloodData.setRhFactor(Rh);
+        this.bloodData = new BloodData(bloodType, Rh);
     }
 
     public int getID() {
